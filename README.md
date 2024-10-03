@@ -21,15 +21,15 @@ This project provides a command-line interface to run various Python scripts for
 
 3. Navigate to the project directory:
 
-    cd <project-directory> #scripts
+    cd C:\path\to\your\project
 
-4. Install any necessary dependencies. If your scripts require specific libraries, make sure to install them using <pip>.
+4. Install any necessary dependencies. If your scripts require specific libraries, make sure to install them using pip.
      
-     pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ## Usage
 Open the command prompt (CMD).
-Navigate to the directory where <menu.py> is located:
+Navigate to the directory where menu.py is located:
 
     cd C:\path\to\your\project
 
