@@ -17,7 +17,7 @@ This project provides a command-line interface to run various Python scripts for
 2. Clone or download this repository to your local machine.
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/cyberprogramming1/Python_scripts.git
 
 3. Navigate to the project directory:
 
