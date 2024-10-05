@@ -1,6 +1,9 @@
 import subprocess
 import sys
 import os
+import pyfiglet
+from colorama import init, Fore
+init()
 
 def run_script(script_name, *args):
     try:
@@ -8,9 +11,14 @@ def run_script(script_name, *args):
         subprocess.run([sys.executable, script_name] + list(args))
     except Exception as e:
         print(f"Error running {script_name}: {e}")
-while True:
 
+def show_figlet_design():
+    figlet_text = pyfiglet.figlet_format("TORPEDO")
+    print(Fore.BLUE + figlet_text + Fore.RESET)
+
+while True:
     def menu():
+        show_figlet_design()
         print("Choose a script to run:")
         print("1. Brute-Force Password Cracker:")
         print("2. File Integrity Checker:")
